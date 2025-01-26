@@ -4,7 +4,7 @@ public class NetBankingOperations {
 
 	 public String doPayment(long cardNo,double amt)
 	  {
-		  return amt+"payment is done with the card::"+cardNo;
+		  return amt+"Payment is done with the card::"+cardNo;
 	  }
 	  
 	  public String cashBackOffer(String txId, double amt)
